@@ -13,8 +13,10 @@ body {
 
 .beneficios{
     background: #ffffff;
-    padding: 20px
+    padding: 20px;
+    margin:0 auto;
 }
+
 h2{
    text-align: center;
 }
@@ -48,4 +50,8 @@ h1{
 
 #missao{
     font-size: 20px;
+}
+
+.imgbeneficios{
+    width: 50%;
 }
