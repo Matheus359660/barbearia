@@ -5,37 +5,123 @@
     <title>Barbearia</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-   <img id="banner" src="banner.jpg">
+   <img id="banner" src="img/banner.jpg">
+
+   <header>
+        <h1 class="titulo-principal">Barbearia Alura</h1>
+   </header>
+
+   <header>
+     <header> 
+        <div class="caixa">
+            <h1><img src="logo.png"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href=" index.html "> Home </a></li>
+                    <li><a href=" contato.html "> Contato </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   </header>
+
+    <main>
+        <form>
+            <h1> FALE CONOSCO</h1>
+            <fieldset>
+                <p>Nome Sobrenome</p>
+                <input type="text" class="input-text" required>
+
+                <p>E-mail</p>
+                <input type="text" class="input-text" required placeholder="seulogin@dominio.com">
+
+                <p> Telefone </p>
+                <input type="text" class="input-text" required placeholder="(xx) xxxxxx-xxxx">
+
+                <p>Mensagem</p>
+                <textarea cols="70" rows="10" required></textarea>
+
+            </fieldset>
+
+            <fieldset>
+               <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <p><input type="radio" name="contato" value="email"> Email</p>
+                    <p><input type="radio" name="contato" value="telefone"> Telefone</p>
+                    <p><input type="radio" name="contato" value="whatsapp" checked> WhatsApp</p>
+               </fieldset>
+
+               <fieldset>
+                   <legend>Qual horário prefere ser atendido?</legend>
+                   <select>
+                       <option>Manhã</option>
+                       <option>Tarde</option>
+                       <option>Noite</option>
+                  </select>
+                </fieldset>
+
+                <p>
+                    <input type="checkbox" checked>Gostaria de receber nossas novidades por email?
+                </p>
+
+                <button class="enviar"> Enviar Formulário </button>
+                </form>
+
+
+   <main>
+        <ul class="produtos">
+            <li>
+                <h2>Cabelo</h2>
+                <img src="cabelo.jpg">
+                <p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>
+                <p class="produto-preco">R$ 25,00</p>
+            </li>
+
+            <li>
+                <h2>Barba</h2>
+                <img src="barba.jpg">
+                <p class="produto-descricao">Corte e desenho profissional de barba</p>
+                <p class="produto-preco">R$ 18,00</p>
+            </li>
+            <li>
+                <h2>Cabelo + Barba</h2>
+                <img src="cabelo+barba.jpg">
+                <p class="produto-descricao">Pacote completo de cabelo e barba</p>
+                <p class="produto-preco">R$ 35,00</p>
+            </li>
+        </ul>
+    </main>
 
    <div class="principal">
-   <h1>sobre a  barbearia</h1>
-   <p>Localizada no coração da cidade<stroong><a
-
-   <h1 style="text-align: center">Sobre a Barbearia</h1>
+        <h2 class="titulo-centralizado">Sobre a Barbearia</h1>
    
    <p>Localizada no coração da cidade a <a href="https://sites.appbarber.com.br/barbeariabadwol-u8me">Barbearia</a> 
     traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia já é destaque na cidade
     e conquista novos clientes a cada dia.</p>
 
-    <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</em></strong></p>
+   <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</em></strong></p>
 
     <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
     O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-
     </div>
     <div class="beneficios">
-        <h2>Beneficios</h2>
+        <h3 class="titulo-centralizado">Benefícios</h3>
 
         <ul>
-            <li class="itens">Atendimentos</li>
+            <li class="itens">Atendimento aos Clientes</h3>
             <li class="itens">Espaço diferenciado</li>
-            <li class="itens"> Localização</li>
-            <li class="itens">Profissionais Qualificados</li>
+            <li class="itens">Localização</li>
+            <li class="itens">Profissionais</li>
         </ul>
 
-        <img src="beneficios.jpg" class="imgbeneficios">
+         <footer>
+        <img src="logo-branco.png">
+        <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+    </footer>
+
+        <img src="img/beneficios.jpg" class="imgbeneficios">
     </div>
 </body>
 </html>
